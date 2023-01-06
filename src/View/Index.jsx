@@ -26,7 +26,7 @@ export const Index = (props) => {
 			/>
 
 
-			<div className='container mx-auto'>
+			<div className='container mx-auto' >
 
 				<HeaderList 
 					getSeach={props.getSeach}

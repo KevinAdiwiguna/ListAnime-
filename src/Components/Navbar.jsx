@@ -16,7 +16,7 @@ export const Navbar = (props) => {
 	}
 
 	return (
-		<nav
+		<nav id="list"
 			className="sticky top-0">
 			<div 
 				className="flex bg-[#050833] h-full justify-between md:justify-around items-center text-white p-5">
@@ -52,6 +52,9 @@ export const Navbar = (props) => {
 
 				</div>
 				<Sidebar 
+					setInputACC={props.setInputACC}
+					inputACC={props.inputACC} 
+					setInputSearch={props.setInputSearch} 
 					navHandle={props.navHandle} 
 					setNavHandle={props.setNavHandle} 
 				/>
